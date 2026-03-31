@@ -4,21 +4,21 @@ export function Hero() {
   return (
     <section id="hero" className="py-16">
       <h1 className="text-3xl font-mono font-bold mb-4">
-        Hey, I&apos;m{" "}
-        <span className="text-stone-100">Theo Malaper</span>
+        Hi, I&apos;m{" "}
+        <span className="text-stone-100">Theo</span>
       </h1>
 
-      <div className="space-y-2 text-stone-400 max-w-xl mb-8">
+      <div className="space-y-2 text-stone-400 max-w-xl mb-8 mt-8">
         <p>
-          CS graduate and ex-quant/ML engineer at Optiver. After two years
-          there I took a gap year to travel, founded my own AI project, and
+          Ex-quant developer at Optiver and CS graduate from Melbourne uni. After two years
+          of work, I decided to take a gap year to travel, found my own AI project, and
           explore where I want to take my career next — which led me to
-          clinical AI.
+          health tech/clinical AI.
         </p>
         <p>
           Having explored it independently through a couple of projects, I&apos;m
-          now looking for a role where I can contribute technically while
-          deepening my exposure to this space.
+          now looking for a role where I can contribute technically and
+          gain more exposure to this space.
         </p>
       </div>
 

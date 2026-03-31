@@ -15,7 +15,8 @@ export const PROJECTS: Project[] = [
     name: "Motu",
     status: "Active",
     description:
-      "AI travel platform with an LLM-based itinerary assistant trained on destination-specific knowledge, natural language trip planning, and third-party booking integrations.",
+      "AI travel platform with LLM-based itinerary planner trained on destination-specific data, natural language trip planning, and third-party booking integrations.",
+    repoUrl: "https://github.com/theomalaper",
     techStack: ["React", "FastAPI", "Python", "MongoDB", "LLM", "RAG"],
     featured: true,
   },

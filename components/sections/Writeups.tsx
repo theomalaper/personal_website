@@ -9,7 +9,7 @@ export function Writeups() {
     <section id="writeups" className="py-12">
       <SectionHeader title="Write-ups" />
       <p className="text-stone-400 mb-6">
-        Notes on experiments, explorations, and things I&apos;m learning:
+        Notes on experiments, and things I&apos;m learning:
       </p>
       {posts.length === 0 ? (
         <p className="text-sm text-stone-600">Coming soon.</p>

@@ -11,16 +11,16 @@ export interface Experience {
 export const EXPERIENCE: Experience[] = [
   {
     company: "Optiver",
-    role: "Graduate Software Engineer",
+    role: "Software Engineer",
     startDate: "Feb 2023",
     endDate: "Mar 2025",
-    location: "Amsterdam",
+    location: "Sydney",
     description: [
-      "Designed machine learning algorithms and data pipelines to trade in India, generating ~20M AUD per year.",
-      "Maintained multithreaded, low-latency applications publishing ~500k financial valuations per second.",
-      "Developed and continuously enhanced a high-frequency basket trading architecture used across Asia.",
+      "Designed machine learning algorithms and data pipelines to trade in India, generating ~20M AUD/year",
+      "Maintained multithreaded, low-latency applications publishing ~500k financial valuations per second",
+      "Developed a high-frequency basket trading architecture used across Asian markets",
     ],
-    techStack: ["Python", "C++", "ML", "Distributed Systems"],
+    techStack: ["Python", "C++", "ML", "Distributed Systems", "Low Latency"],
   },
   {
     company: "River Capital",
@@ -28,8 +28,8 @@ export const EXPERIENCE: Experience[] = [
     startDate: "Jul 2022",
     endDate: "Oct 2022",
     description: [
-      "Performed ad hoc analysis, company research and financial instrument valuation.",
-      "Assisted with building financial forecasts, data models and completing due diligence.",
+      "Performed ad hoc analysis, company research and financial instrument valuation",
+      "Assisted with building financial forecasts, data models and completing due diligence",
     ],
   },
   {
@@ -38,10 +38,10 @@ export const EXPERIENCE: Experience[] = [
     startDate: "Feb 2022",
     endDate: "Jun 2022",
     description: [
-      "Implemented an application to model the costs of bioprocesses and scientific experiments.",
-      "Collaborated with end-users to identify key requirements and enhance the usability of CSL's software.",
+      "Implemented an application to model the costs of bioprocesses and scientific experiments",
+      "Collaborated with end-users to identify key requirements and enhance the usability of CSL's software",
     ],
-    techStack: ["Python"],
+    techStack: ["Python", "Django", "React"],
   },
   {
     company: "Phoebe Solutions",
@@ -49,8 +49,8 @@ export const EXPERIENCE: Experience[] = [
     startDate: "Oct 2021",
     endDate: "Jun 2022",
     description: [
-      "Designed and implemented a testing framework for their optimisation engine.",
-      "Managed multiple code environments focused on enhancing financial revenue management in hospitals.",
+      "Designed and implemented a testing framework for their optimisation engine",
+      "Managed multiple code environments focused on enhancing financial revenue management in hospitals",
     ],
     techStack: ["Python", "C", "Java", "SQL"],
   },
