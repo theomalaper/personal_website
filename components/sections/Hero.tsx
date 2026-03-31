@@ -25,7 +25,7 @@ export function Hero() {
           href="https://www.linkedin.com/in/theo-malaper/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2 bg-orange-700 text-orange-200 rounded-md text-sm font-mono hover:bg-orange-700 transition-colors"
+          className="inline-flex items-center gap-2 px-4 py-2 bg-orange-700 text-orange-200 rounded-md text-sm font-mono hover:bg-orange-800 transition-colors"
         >
           Get in touch
         </a>
