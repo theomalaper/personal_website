@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/Hero";
 import { Projects } from "@/components/sections/Projects";
 import { Experience } from "@/components/sections/Experience";
+import { TechStack } from "@/components/sections/TechStack";
 import { Writeups } from "@/components/sections/Writeups";
 import { FindMe } from "@/components/sections/FindMe";
 import { Contact } from "@/components/sections/Contact";
@@ -15,6 +16,8 @@ export default function HomePage() {
       <Experience />
       <hr className="border-stone-800" />
       <Writeups />
+      <hr className="border-stone-800" />
+      <TechStack />
       <hr className="border-stone-800" />
       <FindMe />
       <hr className="border-stone-800" />
