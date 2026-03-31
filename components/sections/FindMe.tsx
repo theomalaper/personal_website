@@ -1,6 +1,8 @@
 import { SOCIAL_LINKS } from "@/data/social";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
+const EMAIL = "theomalaper.cognez@gmail.com";
+
 export function FindMe() {
   return (
     <section id="find-me" className="py-12">
@@ -17,6 +19,12 @@ export function FindMe() {
             {link.platform}
           </a>
         ))}
+        <a
+          href={`mailto:${EMAIL}`}
+          className="inline-flex items-center gap-2 px-3 py-1.5 border border-stone-800 rounded-md text-sm font-mono text-stone-300 hover:border-stone-600 hover:text-stone-100 transition-colors"
+        >
+          Email
+        </a>
       </div>
     </section>
   );
