@@ -9,15 +9,15 @@ export default function HomePage() {
   return (
     <main className="max-w-2xl mx-auto px-6 w-full">
       <Hero />
-      <hr className="border-neutral-800" />
+      <hr className="border-stone-800" />
       <Projects />
-      <hr className="border-neutral-800" />
+      <hr className="border-stone-800" />
       <Experience />
-      <hr className="border-neutral-800" />
+      <hr className="border-stone-800" />
       <Writeups />
-      <hr className="border-neutral-800" />
+      <hr className="border-stone-800" />
       <FindMe />
-      <hr className="border-neutral-800" />
+      <hr className="border-stone-800" />
       <Contact />
     </main>
   );

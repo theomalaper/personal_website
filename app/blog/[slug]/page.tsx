@@ -37,15 +37,15 @@ export default async function BlogPostPage({ params }: PageProps) {
     <main className="max-w-2xl mx-auto px-6 w-full py-16">
       <Link
         href="/blog"
-        className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors mb-8 inline-block"
+        className="text-sm text-stone-500 hover:text-stone-300 transition-colors mb-8 inline-block"
       >
         ← Write-ups
       </Link>
       <div className="mb-8">
-        <h1 className="text-2xl font-mono font-bold text-neutral-100 mb-2">
+        <h1 className="text-2xl font-mono font-bold text-stone-100 mb-2">
           {post.title}
         </h1>
-        <div className="flex items-center gap-3 text-xs text-neutral-500 font-mono">
+        <div className="flex items-center gap-3 text-xs text-stone-500 font-mono">
           <span>{post.date}</span>
           {post.tags.length > 0 && (
             <>
@@ -55,7 +55,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           )}
         </div>
       </div>
-      <article className="prose prose-invert prose-neutral max-w-none prose-headings:font-mono prose-code:font-mono">
+      <article className="prose prose-invert prose-stone max-w-none prose-headings:font-mono prose-code:font-mono">
         <MDXRemote
           source={post.content}
           options={{

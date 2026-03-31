@@ -12,7 +12,7 @@ export function FindMe() {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-3 py-1.5 border border-neutral-800 rounded-md text-sm font-mono text-neutral-300 hover:border-neutral-600 hover:text-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-3 py-1.5 border border-stone-800 rounded-md text-sm font-mono text-stone-300 hover:border-stone-600 hover:text-stone-100 transition-colors"
           >
             {link.platform}
           </a>

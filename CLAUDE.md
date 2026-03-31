@@ -73,7 +73,7 @@ public/
 - Use `cn()` (clsx + tailwind-merge) for all conditional class logic — never string interpolation
 - Class strings sorted: layout → spacing → typography → color → interactivity
 - No arbitrary values — use Tailwind's scale where possible
-- Dark theme base: `bg-neutral-950 text-neutral-100`
+- Dark theme base: `bg-stone-950 text-stone-100` (stone palette for warm tones, not neutral)
 - Section headers: `text-xs tracking-widest uppercase font-mono text-neutral-400`
 - Body font: monospace via `--font-mono` CSS variable (JetBrains Mono or Geist Mono)
 
