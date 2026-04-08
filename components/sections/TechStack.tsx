@@ -6,7 +6,7 @@ export function TechStack() {
   return (
     <section id="stack" className="py-12">
       <SectionHeader title="Tech Stack" />
-      <p className="text-stone-400 mb-6">
+      <p className="text-stone-600 dark:text-stone-400 mb-6">
         Tools and technologies I work with:
       </p>
       <div className="flex flex-wrap gap-2">
