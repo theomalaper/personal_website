@@ -11,20 +11,20 @@ export function Experience() {
           <div key={`${item.company}-${item.startDate}`}>
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
               <div>
-                <span className="font-mono font-medium text-stone-100">
+                <span className="font-mono font-medium text-stone-800 dark:text-stone-100">
                   {item.company}
                 </span>
-                <span className="text-stone-500 mx-2">—</span>
-                <span className="text-stone-300 text-sm">{item.role}</span>
+                <span className="text-stone-400 dark:text-stone-500 mx-2">—</span>
+                <span className="text-stone-600 dark:text-stone-300 text-sm">{item.role}</span>
               </div>
-              <span className="text-xs text-stone-500 font-mono whitespace-nowrap">
+              <span className="text-xs text-stone-500 dark:text-stone-500 font-mono whitespace-nowrap">
                 {item.startDate} – {item.endDate}
               </span>
             </div>
             <ul className="space-y-1 mb-3">
               {item.description.map((point, i) => (
-                <li key={i} className="text-sm text-stone-400 flex gap-2">
-                  <span className="text-stone-600 mt-0.5">•</span>
+                <li key={i} className="text-sm text-stone-600 dark:text-stone-400 flex gap-2">
+                  <span className="text-stone-400 dark:text-stone-600 mt-0.5">•</span>
                   {point}
                 </li>
               ))}
